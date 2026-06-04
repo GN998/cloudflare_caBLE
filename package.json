@@ -1,0 +1,12 @@
+{
+  "name": "cloudflare_caBLE",
+  "version": "1.0.0",
+  "description": "FIDO caBLE Tunnel Server using Cloudflare Durable Objects",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

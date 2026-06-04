@@ -1,0 +1,31 @@
+name = "cloudflare_caBLE"
+main = "src/index.ts"
+compatibility_date = "2026-05-26"
+
+routes = [
+  { pattern = "cable.yourdomain.com/cable/custom/*", zone_name = "yourdomain.com" },
+  { pattern = "cable.yourdomain.com/cable/connect/*", zone_name = "yourdomain.com" },
+  { pattern = "cable.yourdomain.com/cable/contact/*", zone_name = "yourdomain.com" } 
+]
+
+[[durable_objects.bindings]]
+name = "TUNNEL_ROOM"
+class_name = "TunnelRoom"
+
+[[migrations]]
+tag = "v2"
+new_sqlite_classes = ["TunnelRoom"]
+
+# Added this section to resolve the error.
+[observability]
+enabled = false
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+persist = true
+invocation_logs = true
+
+[placement]
+mode = "smart"
