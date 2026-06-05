@@ -13,6 +13,14 @@ A super simple, ultra-lightweight FIDO caBLE tunnel server running entirely on C
 * **🛠️ Zero Server Maintenance:** No need to worry about Linux upgrades or restarting Docker containers. It is completely serverless—set it and forget it.
 * **🔒 Ultra Secure:** The room only processes encrypted binary data. Leveraging Cloudflare's Durable Objects technology, it guarantees that exactly two devices can ever be in a room at any given time.
 
+## ⚠️ Compliance and Disclaimer
+
+This project is intended solely for academic research and technical exchange regarding FIDO/WebAuthn cryptographic protocols, demonstrating the implementation principles of caBLE.
+
+This project does not provide any public relay services. The developers assume no responsibility or liability for any legal consequences arising from the deployment of services using this code by any individual or organization.
+
+Users must use this project in strict compliance with local laws and regulations. It is strictly prohibited to modify or use this code for any form of illegal activity.
+
 
 ## 🚀 Quick Start
 
