@@ -11,7 +11,6 @@ A super simple, ultra-lightweight FIDO caBLE tunnel server running entirely on C
 
 * **🚀 Blazing Fast:** Runs on Cloudflare's edge network. This "tunnel" is always established at the node closest to your physical location.
 * **🛠️ Zero Server Maintenance:** No need to worry about Linux upgrades or restarting Docker containers. It is completely serverless—set it and forget it.
-* **🔒 Ultra Secure:** The room only processes encrypted binary data. Leveraging Cloudflare's Durable Objects technology, it guarantees that exactly two devices can ever be in a room at any given time.
 
 ## ⚠️ Compliance and Disclaimer
 
